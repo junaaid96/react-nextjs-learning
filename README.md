@@ -11,6 +11,10 @@ A hands-on path from **modern JavaScript** through **TypeScript** and **React 19
 | Next.js | 16.4 (App Router, Cache Components) |
 | Tests | `node:test`, Vitest 5, React Testing Library |
 
+## Website
+
+Read every lesson, with its source and tests embedded, plus search and dark mode at **[junaaid96.github.io/react-nextjs-learning](https://junaaid96.github.io/react-nextjs-learning/)**. The site is built from this repo's Markdown by [`website/`](website/) and redeploys on every push to `main`. The `legacy/` folder is not part of the site.
+
 ## Quick start
 
 ```bash

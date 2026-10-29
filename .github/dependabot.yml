@@ -8,3 +8,6 @@ updates:
         patterns: ["react", "react-dom", "next", "@types/react*"]
       tooling:
         patterns: ["vitest", "@vitest/*", "typescript", "@testing-library/*", "jsdom", "@vitejs/*"]
+  - package-ecosystem: npm
+    directory: "/website"
+    schedule: { interval: monthly }
