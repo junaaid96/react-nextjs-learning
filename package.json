@@ -1,0 +1,14 @@
+{
+  "name": "react-nextjs-learning",
+  "private": true,
+  "description": "Learning path: modern JavaScript, TypeScript, React 19 and Next.js 16 with runnable, tested lessons.",
+  "license": "MIT",
+  "engines": { "node": ">=22.12" },
+  "workspaces": ["01-javascript", "02-typescript", "03-react", "04-nextjs"],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build -w 04-nextjs",
+    "verify": "npm run typecheck && npm test && npm run build"
+  }
+}

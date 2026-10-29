@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule: { interval: weekly }
+    groups:
+      react-next:
+        patterns: ["react", "react-dom", "next", "@types/react*"]
+      tooling:
+        patterns: ["vitest", "@vitest/*", "typescript", "@testing-library/*", "jsdom", "@vitejs/*"]

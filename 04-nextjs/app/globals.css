@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { max-width: 52rem; margin: 0 auto; padding: 1.5rem; line-height: 1.6; }
+nav a { margin-right: .75rem; }
+input, textarea, button { font: inherit; padding: .4rem .6rem; }
+.error { color: crimson; }
+.card { border: 1px solid #8884; border-radius: .5rem; padding: 1rem; margin: .75rem 0; }
+code { background: #8882; padding: 0 .25rem; border-radius: .25rem; }
